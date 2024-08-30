@@ -44,9 +44,10 @@ public class Producto {
         }
     }
 
-    public void calcularPrecioTotal(){
+    public double calcularPrecioTotal(){
         double total = precio * stock;
         System.out.println(total);
+        return total;
     }
 
     
